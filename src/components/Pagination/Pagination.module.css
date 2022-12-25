@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  gap: 20px;
+}
+.root li {
+  background: #b6b6b6;
+  cursor: pointer;
+}
+.root a {
+  padding: 10px;
+  line-height: 30px;
+  color: #fff;
+}
+.root a:hover {
+  background: #fe5f1e;
+}
+.root :global .selected {
+  background: #fe5f1e;
+}
+
+/*# sourceMappingURL=Pagination.module.css.map */

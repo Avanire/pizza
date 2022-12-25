@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  gap: 20px;
+
+  li {
+    background: #b6b6b6;
+    cursor: pointer;
+  }
+
+  a {
+    padding: 10px;
+    line-height: 30px;
+    color: #fff;
+
+    &:hover {
+      background: #fe5f1e;
+    }
+  }
+
+  :global {
+    .selected {
+      background: #fe5f1e;
+    }
+  }
+}
